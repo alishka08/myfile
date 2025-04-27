@@ -1,0 +1,68 @@
+#juz40{
+    color:red
+}
+
+li {
+    color:purple;
+    font-size:17px;
+    
+}
+
+p a{ 
+    color:yellow;
+    text-decoration: underline;
+}
+
+button{
+    color:white;
+    background-color: green;
+}
+
+tr th{
+    color:white;
+    background-color: brown;
+}
+
+tr td{
+    color:red;
+    background-color: yellow
+}
+
+.main-title{
+    color:blue;
+    background-color: yellow;
+}
+.sub-title{
+    color:green
+}
+.paragraph{
+    background-color: rgba(255,0,0,0.2);
+    
+}
+#paragraph {
+    color:blue;
+    background-color: aqua;
+    text-indent: 5%;
+    text-decoration: underline;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#main-heading {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+#description {
+    color: orange;
+    font-style: italic;
+    font-size: 135%;
+}
+
+#action-button {
+    background-color: white;
+    color:blue;
+    font-size: 130%;
+}

@@ -1,0 +1,19 @@
+
+#juz40top{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    color: yellow;
+    border: 5px blue dotted;
+    margin: 20px 50px 20px 50px;
+    padding: 40px;
+    opacity: 70%;
+    border-radius: 20%;
+    float:right;
+    position: relative;
+    right:600px;
+    top:50px;
+    position: absolute;
+    right: 200px;
+    top: 200px;  /*мынау 10 барлық тапсырма */
+} 
