@@ -1,0 +1,43 @@
+p{
+    font-size:20px;
+}
+#pr{
+    font-size:25px;
+    font-weight: bolder;
+}
+
+h1{
+    color:brown;
+}
+
+.rd{
+    text-align: center;
+}
+
+.dd{
+    background-color: black;
+    text-align: center;
+    background-image: url('krutaya.jpg');
+}
+
+div{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#oo{
+    width: 1500px;
+    height: 1500px;
+    text-align: center;
+}
+h2{
+    width: 900px;
+    height: 900px;
+    text-align: right;
+}
+
+#pp{
+    text-align: center;
+}
