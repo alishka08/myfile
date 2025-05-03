@@ -4,9 +4,19 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>great man</title>
+   <style>
+        h1{
+            color:black
+        }
+   </style>
 </head>
 <body>
     <script src ='script.js'>
     </script>    
+
+    <p><button onclick="alert('Сізге біздің менеджер хабарласады!')">Мені бас</button></p>
+
+    <h1 id="Juz40" onmouseover="mover()" onmouseout="mout()">Бұл тақырыпты өзгертелік</h1>
+    <button onclick="document.getElementById('Juz40').style.color = 'blue'"  ondblclick="document.getElementById('Juz40').style.backgroundColor = 'green'"  >Өзгерту</button>
 </body>
 </html>

@@ -1,54 +1,50 @@
-var a = 16;
-document.write(a);
-
-document.write('Salem Alem');
-
-var a = 5;
-document.write((a+2)** 2);
-
-var m = 22;
-var n = 7;
-document.write(m/n);
-
-alert('Бұл js пен жазылған веб сайт')
-
-a = 6
-if (a / 2 == 0 && a / 7 ==0){
-    document.write('YES')
+function a(){
+    document.write('Web жобалау')
 }
-else{
-    document.write('NO')
-}
+a()
+ function name(){
+    name = prompt('Атыңызды енгізіңіз')
+    if (name){
+        alert('Қайта оралуыңызбен' + ' '+ name)
+    }
+ }
 
-a = confirm('18 жасқа толғансыз ба?')
-if (a ==true){
-    document.write('Қош келдіңіз')
-}
-else{
-    document.write('Сізге бұл сайтқа кіруге болмайды')
-}
+ name()
 
-var name = prompt('Атыңыз кім?')
-if (name){
-    document.write('Қош келдіңіз ' + name +"!")
-}
+ function ab(a , b){
+    document.write('<br>')
+    document.writeln(a + b)
+ }
+ ab(4,5)
 
-var a = prompt('Санды еңгізініз');
-if (a == 0){
-    document.write(' 0-ге тең')
-}
-else{
-    document.write('0-ге тең емес')
-}
+ function b(a){
+    document.write('<br>')
+    if (a % 5 == 0) {
+        document.writeln('YES')
+    }
+    else{
+        document.writeln('NO')
+    }
+ }
+ b(5)
+
+ function ww(a){
+    document.write('<br>')
+    if (a == a.reversed()){
+        document.writeln('YES')
+    }
+    else{
+        document.writeln('NO')
+    }
+ }
+
+ ww(101)
 
 
-var a = prompt('Жұмыс тәжірибесіңіз қанша жыл?');
-if(a <= 2){
-    document.write('Кешіріңіз,тәжірибеңіз жеткіліксіз')
-}
-else if(a <= 4){
-    document.write('Сізбен байланысамыз')
-}
-else{
-    document.write('Сізді күтеміз!')
-}
+ var a = document.getElementById('Juz40');
+    function mover(){
+    a.style.backgroundColor="blue";
+    }
+    function mout(){
+    a.style.backgroundColor="white";
+    }
