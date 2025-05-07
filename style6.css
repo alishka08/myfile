@@ -1,0 +1,44 @@
+/* это проверка на блочные элементы */
+p{
+    display:inline;
+    background-color: lightblue;   
+
+}
+
+h1{
+    display:inline;
+    background-color: lightblue;
+}
+
+div{
+    display:inline;
+    background-color: lightblue;
+}
+
+.rrrr{
+    display: block;
+    background-color: lightblue;
+    width: 1440px;
+}
+
+.yyyy{
+    display: inline;
+    background-color: aqua;
+    font-size: 25px;
+}
+
+.dddd{
+    display: block;
+    background-color: aqua;
+}
+
+.yyyy{
+    display: block;
+    background-color: aqua;
+}
+
+.pppp{
+    display: block;
+    background-color: aqua;
+}
+
