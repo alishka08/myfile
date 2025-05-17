@@ -1,0 +1,63 @@
+.aaaa:hover{
+    background-color: #0056b3;
+}
+
+.first-input:focus{
+    border-color:#0048ff;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.rrrr:first-child {
+    font-style: italic;
+ }
+
+.rrrr:last-child{
+    font-style: italic;
+}
+
+
+.kkkk:hover {
+    color: red;
+    text-decoration: underline;
+  }
+
+  .uuuu:focus {
+    border-color: aquamarine;
+    border-width: 3px;
+    border-style: solid;
+  }
+
+  .eeee:first-child {
+    font-weight: bold;
+    color: blue;
+  }
+
+  .eeee:last-child {
+    font-style: italic;
+    color: green;
+  }
+
+  .llll p:nth-child(odd) {
+    background-color: #f0f0f0;
+    padding: 5px;
+  }
+
+
+  .block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .block p:first-child:hover {
+    color: red;
+    font-weight: bold;
+  }
+
+  .block input:focus:last-child {
+    border-color:#0048ff;
+    border-width: 3px;
+    border-style: solid;
+  }
+
